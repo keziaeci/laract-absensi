@@ -1,5 +1,6 @@
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head } from '@inertiajs/react';
+import { Button } from '@/Components/ui/button';
 
 export default function Dashboard() {
     return (
@@ -21,6 +22,8 @@ export default function Dashboard() {
                     </div>
                 </div>
             </div>
+
+            <Button>Btn</Button>
         </AuthenticatedLayout>
     );
 }
